@@ -1,1 +1,4 @@
-exportPattern("^[[:alpha:]]+")
+export(compute_loss_geocells, compute_loss_points)
+#import(rgdal, raster, sp, RPostgreSQL)
+
+#exportPattern("^[[:alpha:]]+")

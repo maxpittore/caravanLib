@@ -3,11 +3,12 @@
 \alias{caravanLib}
 \docType{package}
 \title{
-What the package does (short line)
+seismic loss assessment 
 ~~ package title ~~
 }
 \description{
-More about what it does (maybe more than one line)
+Service routines for rapid assessment of damage and loss.
+
 ~~ A concise (1-5 lines) description of the package ~~
 }
 \details{
@@ -22,9 +23,9 @@ License: \tab What license is it under?\cr
 ~~ functions ~~
 }
 \author{
-Who wrote it
+Massimiliano Pittore
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Who to complain to <pittore@gfz-potsdam.de>
 ~~ The author and/or maintainer of the package ~~
 }
 \references{
@@ -38,5 +39,5 @@ Maintainer: Who to complain to <yourfault@somewhere.net>
 ~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
 }
 \examples{
-~~ simple examples of the most important functions ~~
+
 }

@@ -2,9 +2,15 @@
 \alias{compute_loss_geocells}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
+Compute fatality range for polygonal locations (settlements) based on a shakemap
 %%  ~~function to do ... ~~
 }
 \description{
+compute detailed loss for surveyed towns  in term of expected fatalities, based on a  shakemap in macroseismic intensity provided 
+ as raster.
+ saves a shapefile with the settlements exposed to mmi > 5. for each settlements the bounds for the fatalities
+ are provided, in absolute and relative terms.
+ dbin, dbout: list(db_conn,layer,overwrite) to specify input and output layers in the dbs
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
